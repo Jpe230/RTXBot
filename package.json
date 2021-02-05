@@ -1,0 +1,26 @@
+{
+  "name": "rtxbot",
+  "version": "1.0.0",
+  "description": "RTXBot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "conf-mac": "rm .env && echo EXEC_PATH='/Applications/Chromium.app/Contents/MacOS/Chromium' >> .env",
+    "conf-pi": "rm .env && echo EXEC_PATH='/usr/bin/chromium-browser' >> .env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jpe230/RTXBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jpe230/RTXBot/issues"
+  },
+  "homepage": "https://github.com/Jpe230/RTXBot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "^0.51.0",
+    "puppeteer-core": "^7.0.1"
+  }
+}

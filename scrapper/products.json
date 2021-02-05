@@ -1,0 +1,20 @@
+{
+    "RTX-3080": {
+        "stores": [
+            {
+                "name": "Cyberpuerta",
+                "url": "https://www.cyberpuerta.mx/NVIDIA-GeForce-RTX-3080/",
+                "selector-available": ".emstock",
+                "text-available": "Disponibles"
+            },
+            {
+                "name": "Grupo Decme",
+                "url": "https://grupodecme.com/search?type=product&q=Tarjeta+de+Video+GeForce+RTX+3070",
+                "selector-non-available": ".badge-label",
+                "text-non-available": "Agotado"
+            }
+        ]
+    }
+    
+}
+  
